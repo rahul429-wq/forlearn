@@ -38,7 +38,7 @@ const newAnims = async (req, res) => {
 };
 
 // delete anims : delete request
-
+// hello world
 const deleteAnims = async (req, res) => {
   const { id } = req.params;
   const anims = await Anim.findByIdAndDelete(id);
